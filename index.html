@@ -66,14 +66,15 @@
             </table>
         <hr>
         <h4>Srting Hashing</h4>
-        <blockquote cite = "https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/">Source file link"
+        <blockquote cite = "https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/">
         <p>String hashing is the way to convert a string into an integer known as a hash of that string.
         An ideal hashing is the one in which there are minimum chances of collision (i.e 2 different strings having the same hash).
        Polynomial rolling hash function.In this hashing technique, the hash of a string is calculated as:
          hash = (s[0]*P^{0} + s[1]*P^{1} + ....s[m]*P^{m}) mod M        
         Where P and M are some positive numbers.  And s[0], s[1], s[2] … s[n-1] are the values assigned to each character in English alphabet (a->1, b->2, … z->26).
        </p>
-    </blockquote>           
+    </blockquote>
+        <a href= "https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/">source file link</a>    
             <pre>
                 long long compute_hash(string const& s) {
                     const int p = 31;
